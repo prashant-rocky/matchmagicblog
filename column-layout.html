@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matchmagicblog | blogs</title>
+    <link rel="shortcut icon" href="assets/images/icon/fav.svg" type="image/x-icon">
+
+    <link rel="stylesheet preload" href="assets/css/plugins/fontawesome-5.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/bootstrap.min.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/swiper.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/metismenu.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/fonts.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/vendor/magnific-popup.css" as="style">
+    <link rel="stylesheet preload" href="assets/css/style.css" as="style">
+</head>
+
+<body class="home-inner">
+    <!-- Start Header Area -->
+
+    <!-- Start Top Header Area -->
+    <header class="eblog-header-area header--sticky">
+        <!-- Start Home-1 Menu & Site Logo & Social Media -->
+        <div class="eblog-home-1-menu">
+            <div class="eblog-site-main-logo-menu-social">
+                <div class="container">
+                    <div class="row align-items-center plr_md--30 plr_sm--30 plr--10">
+                        <div class="col-xl-2 col-lg-2 col-md-7 col-sm-7 col-7 p-0">
+                            <div class="eblog-site-logo">
+                                <a class="logo-light" href="index.html"><img src="assets/images/logo/logo-01.svg" alt="eblog"></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 d-none d-lg-block">
+                            <nav>
+                                <div class="eblog-home-1-menu">
+                                    <ul class="list-unstyled eblog-desktop-menu">
+                                        <li class="menu-item ">
+                                            <a href="index.html" class="eblog-dropdown-main-element active">Home</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="column-layout.html" class="eblog-dropdown-main-element">Blogs</a> 
+                                        </li>
+                                        <li class="menu-item"><a href="about.html" class="eblog-dropdown-main-element">About us</a></li>
+                                        <li class="menu-item"><a href="contact.html" class="eblog-dropdown-main-element">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-5 col-sm-5 col-5 p-0">
+                            <div class="eblog-header-top-social-media">
+                                
+                                <div class="eblog-header-top-menu-bar menu-btn">
+                                    <a href="javascript:void(0)">
+                                        <div class="line small"></div>
+                                        <div class="line big"></div>
+                                        <div class="line small"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Home-1 Menu & Site Logo & Social Media -->
+    </header>
+    <!-- End Top Header Area -->
+
+    <!-- side bar for desktop -->
+    <div id="side-bar" class="side-bar header-one">
+        <div class="inner">
+            <button class="close-icon-menu"><i class="far fa-times"></i></button>
+            <!-- inner menu area desktop start -->
+            <div class="inner-main-wrapper-desk d-none d-lg-block">
+                <div class="thumbnail">
+                    <img src="assets/images/logo/logo-01-w.svg" alt="eblog">
+                </div>
+                <div class="inner-content">
+                    <div class="newsletter-form">
+                        <div class="form-inner">
+                            <div class="content">
+                                <h3 class="title mb--20">Get Newsletter</h3>
+                            </div>
+                            <form class="subscribeForm">
+                                <div class="input-div">
+                                    <input type="email" name="email" placeholder="Your email..." required>
+                                </div>
+                                <button type="submit" class="subscribe-btn">Subscribe Now</button>
+                            </form>
+                            <div id="responseMsg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-lg-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu" id="mobile-menu-active">
+                    <li class="has-droupdown">
+                        <a href="index.html" class="main">Home</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="column-layout.html" class="Blogs">Post</a>
+                        
+                    </li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="about.html">About</a></li>
+                    <li class="menu-item"><a class="main mobile-menu-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <!-- Start Subscribe Popup Box -->
+    <div class="eblog-popup-model" id="id01">
+        <div class="eblog-popup-transition">
+            <div class="model-content animate-subscribe-popup">
+                <a href="javascript:void(0)" onclick="document.getElementById('id01').style.display='none'"><i class="fa-regular fa-xmark"></i></a>
+                <div class="eblog-p-flexing">
+                    <div class="form">
+                        <div class="eblog-p-sub-heading">
+                            <p>Weekly Updates</p>
+                        </div>
+                        <div class="eblog-p-sub-heading">
+                            <h3>Let's join our newsletter!</h3>
+                        </div>
+                        <form class="subscribeForm">
+                            <input type="email" name="email" required placeholder="Enter Your Email..">
+                            <button type="submit">Submit</button>
+                        </form>
+                        <div id="responseMsg"></div>
+                        <div class="eblog-bottom-popup">
+                            <p>Do not worry we don't spam!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Subscribe Popup Box -->
+    <!-- End Header Area -->
+
+    <!-- Start Breadcrumb Area -->
+    <!-- rts breadcrumba area start -->
+    <div class="eblog-breadcrumb-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- bread crumb inner wrapper -->
+                    <div class="breadcrumb-inner text-center">
+                        <div class="meta">
+                            <a href="#" class="prev">Home</a>
+                            <img src="assets/images/icon/chevron-right.svg" alt="">
+                            <a href="#" class="next">Blog</a>
+                            <img src="assets/images/icon/chevron-right.svg" alt="">
+                            <a href="#" class="last">Life Style</a>
+                        </div>
+                    </div>
+                    <!-- bread crumb inner wrapper end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts breadcrumba area end -->
+    <!-- End Breadcrumb Area -->
+
+    <!-- Start Feature Post Area -->
+    <section class="eblog-featured-post-area area-2 tp-section-gap">
+        <div class="container">
+            <div class="section-inner">
+                <div class="row g-5 sticky-coloum-wrap">
+                    <div class="col-xl-9">
+                        <div class="left-side-post-area">
+                            <div class="featured-post area-2">
+                                <div class="post-section-inner">
+                                    <div class="row g-5">
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="10-first-date-ideas-that-actually-Impress.html"><img src="assets/images/blog/blog1.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1230)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1230">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="10-first-date-ideas-that-actually-Impress.html">10 First Date Ideas That <br> Actually Impress</a></h4>
+                                                    <a href="10-first-date-ideas-that-actually-Impress.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="How-to-text-your-crush-without-overthinking.html"><img src="assets/images/blog/blog2.webp" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1231)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1231">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="How-to-text-your-crush-without-overthinking.html">How to Text Your Crush <br> Without Overthinking</a></h4>
+                                                    <a href="#" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="Body-language-secrets-to-flirt-confidently.html"><img src="assets/images/blog/blog3.jfif" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1232)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1232">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="Body-language-secrets-to-flirt-confidently.html">Body Language Secrets to <br>Flirt Confidently</a></h4>
+                                                    <a href="Body-language-secrets-to-flirt-confidently.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="How-to-plan-a-romantic-surprise-on-a-budget.html"><img src="assets/images/blog/blog4.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1233)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1233">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="How-to-plan-a-romantic-surprise-on-a-budget.html">How to Plan a Romantic <br>Surprise on a Budget</a></h4>
+                                                    <a href="How-to-plan-a-romantic-surprise-on-a-budget.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="How-Sarah-and-John-met-Online-A-modern-love-story.html"><img src="assets/images/blog/blog5.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="How-Sarah-and-John-met-Online-A-modern-love-story.html">How Sarah and John Met Online: <br> A Modern Love Story</a></h4>
+                                                    <a href="How-Sarah-and-John-met-Online-A-modern-love-story.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="Long-distance-love-that-worked-tips-from-couples-who-made.html"><img src="assets/images/blog/blog6.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="Long-distance-love-that-worked-tips-from-couples-who-made.html">Long-Distance Love That Worked: <br> Tips from Couples Who Made It</a></h4>
+                                                    <a href="Long-distance-love-that-worked-tips-from-couples-who-made.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="From-friends-to-Lovers-A-journey-of-true-connection.html"><img src="assets/images/blog/blog7.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="From-friends-to-Lovers-A-journey-of-true-connection.html">From Friends to Lovers: A Journey of <br> True Connection</a></h4>
+                                                    <a href="From-friends-to-Lovers-A-journey-of-true-connection.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="Signs-you’re-ready-for-a-serious-relationship.html"><img src="assets/images/blog/blog8.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="Signs-you’re-ready-for-a-serious-relationship.html">Signs You’re Ready for a <br>Serious Relationship</a></h4>
+                                                    <a href="Signs-you’re-ready-for-a-serious-relationship.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="Healing-after-a-breakup-practical-steps-to-move-on.html"><img src="assets/images/blog/blog9.jpg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="Healing-after-a-breakup-practical-steps-to-move-on.html">Healing After a Breakup: Practical <br> Steps to Move On</a></h4>
+                                                    <a href="Healing-after-a-breakup-practical-steps-to-move-on.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="eblog-featured-news style-two big">
+                                                <div class="image-area">
+                                                    <a href="Boost-your-confidence-before-a-date.html"><img src="assets/images/blog/blog10.jpeg" alt=""></a>
+                                                    <p class="tag">dating</p>
+                                                </div>
+                                                <div class="blog-content">
+                                                    <ul class="blog-meta">
+                                                        <li class="author"><span>BY</span>by dating team - 14 oct, 2025 </li>
+                                                        <li>
+                                                            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <g clip-path="url(#clip0_4238_1234)">
+                                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z" fill="#1E1E1E" />
+                                                                </g>
+                                                                <defs>
+                                                                    <clipPath id="clip0_4238_1234">
+                                                                        <rect width="15" height="15" fill="white" />
+                                                                    </clipPath>
+                                                                </defs>
+                                                            </svg>
+                                                            3 Minute Read
+                                                        </li>
+                                                        <li>
+                                                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                                <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143" fill="#1E1E1E" />
+                                                                <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714" fill="#1E1E1E" />
+                                                            </svg>
+                                                            
+                                                        </li>
+                                                    </ul>
+                                                    <h4 class="heading-title"><a class="title-animation text-center" href="Boost-your-confidence-before-a-date.html">Boost Your Confidence <br> Before a Date</a></h4>
+                                                    <a href="Boost-your-confidence-before-a-date.html" class="text-btn color-two">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 tp-sticky-column-item">
+                        <div class="eblog-right-sidebar">
+                            <div class="eblog-right-side-post feature">
+                                <p class="title">Feature Post</p>
+                                <div class="featured-post sidebar">
+                                    <div class="image-area">
+                                        <a href="#">
+                                            <img src="assets/images/blog/blog10.jpeg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="blog-content">
+                                        <ul class="blog-meta">
+                                            <li>
+                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_4238_1242)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z"
+                                                            fill="#1E1E1E" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_4238_1242">
+                                                            <rect width="15" height="15" fill="white" />
+                                                        </clipPath>
+                                                    </defs>
+                                                </svg>
+                                                3 Minute Read
+                                            </li>
+                                            <li>
+                                                <svg width="13" height="13" viewBox="0 0 13 13" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <rect y="4.17773" width="1.85714" height="8.35714" fill="#1E1E1E" />
+                                                    <rect x="11.1426" y="6.96387" width="1.85714" height="5.57143"
+                                                        fill="#1E1E1E" />
+                                                    <rect x="5.57227" y="0.463867" width="1.85714" height="12.0714"
+                                                        fill="#1E1E1E" />
+                                                </svg>
+
+                                            </li>
+                                        </ul>
+                                        <h5 class="heading-title"><a class="title-animation" href="Boost-your-confidence-before-a-date.html">Boost Your Confidence Before a Date</a></h5>
+                                        <p class="author"><em>by</em> Dany</p>
+                                        <a href="#" class="read-more-btn">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="eblog-right-side-post popular">
+                                <p class="title">Popular Post</p>
+                                <div class="small-post">
+                                    <div class="eblog-post-list-style">
+                                        <div class="image-area">
+                                            <a href="#"><img src="assets/images/blog/blog19.jpg" alt=""></a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <h4 class="heading-title"><a class="title-animation" href="10-first-date-ideas-that-actually-Impress.html">10 First Date Ideas That Actually Impress</a></h4>
+                                            <ul class="blog-meta">
+                                                <li>
+                                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_4238_1243)">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z"
+                                                                fill="#1E1E1E" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_4238_1243">
+                                                                <rect width="15" height="15" fill="white" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    3 Minute Read
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="eblog-post-list-style">
+                                        <div class="image-area">
+                                            <a href="#"><img src="assets/images/blog/blog20.jpg" alt=""></a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <h4 class="heading-title"><a class="title-animation" href="How-to-text-your-crush-without-overthinking.html">How to Text Your Crush Without Overthinking</a></h4>
+                                            <ul class="blog-meta">
+                                                <li>
+                                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_4238_1244)">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z"
+                                                                fill="#1E1E1E" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_4238_1244">
+                                                                <rect width="15" height="15" fill="white" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    3 Minute Read
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="eblog-post-list-style">
+                                        <div class="image-area">
+                                            <a href="#"><img src="assets/images/blog/blog21.jpg" alt=""></a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <h4 class="heading-title"><a class="title-animation" href="How-to-plan-a-romantic-surprise-on-a-budget.html">How to Plan a Romantic Surprise on a Budget</a></h4>
+                                            <ul class="blog-meta">
+                                                <li>
+                                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_4238_1245)">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z"
+                                                                fill="#1E1E1E" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_4238_1245">
+                                                                <rect width="15" height="15" fill="white" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    3 Minute Read
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="eblog-post-list-style">
+                                        <div class="image-area">
+                                            <a href="#"><img src="assets/images/blog/blog22.jpg" alt=""></a>
+                                        </div>
+                                        <div class="blog-content">
+                                            <h4 class="heading-title"><a class="title-animation" href="Body-language-secrets-to-flirt-confidently.html">Body Language Secrets to Flirt Confidently</a></h4>
+                                            <ul class="blog-meta">
+                                                <li>
+                                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <g clip-path="url(#clip0_4238_1246)">
+                                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                d="M3.85407 12.9565C4.93327 13.6776 6.20206 14.0625 7.5 14.0625C9.24049 14.0625 10.9097 13.3711 12.1404 12.1404C13.3711 10.9097 14.0625 9.24049 14.0625 7.5C14.0625 6.20206 13.6776 4.93327 12.9565 3.85407C12.2354 2.77488 11.2105 1.93374 10.0114 1.43704C8.81222 0.940343 7.49272 0.810384 6.21972 1.0636C4.94672 1.31682 3.7774 1.94183 2.85961 2.85961C1.94183 3.7774 1.31682 4.94672 1.0636 6.21972C0.810384 7.49272 0.940343 8.81222 1.43704 10.0114C1.93374 11.2105 2.77488 12.2354 3.85407 12.9565ZM4.37492 2.82299C5.29995 2.2049 6.38748 1.875 7.5 1.875C8.99185 1.875 10.4226 2.46764 11.4775 3.52253C12.5324 4.57742 13.125 6.00816 13.125 7.5C13.125 8.61252 12.7951 9.70006 12.177 10.6251C11.5589 11.5501 10.6804 12.2711 9.6526 12.6968C8.62476 13.1226 7.49376 13.234 6.40262 13.0169C5.31148 12.7999 4.3092 12.2641 3.52253 11.4775C2.73586 10.6908 2.20013 9.68853 1.98309 8.59739C1.76604 7.50624 1.87744 6.37524 2.30318 5.34741C2.72892 4.31957 3.44989 3.44107 4.37492 2.82299ZM7.03125 7.69219L9.65156 10.3125L10.3125 9.65156L7.96875 7.30312V3.28125H7.03125V7.69219Z"
+                                                                fill="#1E1E1E" />
+                                                        </g>
+                                                        <defs>
+                                                            <clipPath id="clip0_4238_1246">
+                                                                <rect width="15" height="15" fill="white" />
+                                                            </clipPath>
+                                                        </defs>
+                                                    </svg>
+                                                    3 Minute Read
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="eblog-right-side-post newsletter">
+                                <p class="title">Subscribe News Letter</p>
+                                <div class="newsletter-area">
+                                    <form class="subscribeForm">
+                                        <div class="form-inner">
+                                            <div class="single-input-wrapper">
+                                                <input type="email" name="email" placeholder="Your mail address"
+                                                    required>
+                                            </div>
+                                            <div class="single-input-wrapper">
+                                                <button type="submit" class="subscribe-btn tp-btn">Subscribe</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div id="responseMsg"></div>
+                                </div>
+                            </div>
+                            <div class="eblog-right-side-post ad">
+                                <div class="eblog-ad-area">
+                                    <img src="assets/images/banner/ad.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Feature Post Area -->
+
+    <!-- Start Newsletter Area -->
+    <section class="eblog-newsletter-area tp-section-gap">
+        <div class="container">
+            <div class="section-inner">
+                <p class="sub-title">Weekly updates</p>
+                <h2 class="section-title">Join our newsletter for <br>
+                    latest updates!</h2>
+                <p class="desc">Subscribe to our newsletter for weekly dating tips, relationship advice, and inspiring stories from Tokyo and beyond.</p>
+                <form class="subscribeForm" class="newsletter-form">
+                    <div class="form-inner">
+                        <div class="single-input-wrapper">
+                            <input type="email" name="email" placeholder="Your email address" required>
+                        </div>
+                        <div class="single-input-wrapper">
+                            <button type="submit" class="subscribe-btn tp-btn btn-primary">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="responseMsg"></div>
+            </div>
+        </div>
+    </section>
+    <!-- End Newsletter Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="eblog-footer-area footer-inner tp-section-top-100" id="footer">
+        <div class="container">
+            <div class="eblog-footer-inner">
+                <div class="social-area">
+                    <p class="tag">USEFULL LINKS</p>
+                    <p class="p-0 m-0"><a href="column-layout.html">Blogs</a></p>
+                    <p class="p-0 m-0"><a href="contact.html">Contact Us</a></p>
+                    <p class="p-0 m-0"><a href="about.html">About Me</a></p>
+                </div>
+                <div class="footer-logo-area">
+                    <a href="index.html" class="logo"><img src="assets/images/logo/logo-04.svg" alt=""></a>
+                    <p class="desc">Your go-to blog for dating tips, relationship advice, and real stories to inspire love.</p>
+                </div>
+                <div class="footer-newsletter-area">
+                    <p class="tag">Join my newsletter:</p>
+                    <form class="subscribeForm">
+                        <div class="form-inner">
+                            <div class="single-input-wrapper">
+                                <input type="email" name="email" placeholder="Your mail address" required>
+                            </div>
+                            <div class="single-input-wrapper">
+                                <button type="submit" class="subscribe-btn tp-btn btn-primary">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="responseMsg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="eblog-footer-copyright-area">
+        <div class="row">
+            <div class="col-md-6">
+                    <div class="copyright-content">
+                        <p class="title">2025 © All rights reserved.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <span><a href="privacy.html">Privacy Policy</a></span> |
+                    <span><a href="disclaimer.html">Disclaimer</a></span> |
+                    <span><a href="terms.html">terms & conditions</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+    <!-- End Footer Area -->
+
+    <!-- Start Scricpt Area -->
+
+    <!--scroll top button-->
+    <button class="scroll-top-btn">
+        <i class="fa-regular fa-angles-up"></i>
+    </button>
+    <!--scroll top button end-->
+
+    <div id="anywhere-home"></div>
+
+    <script src="assets/js/vendor/jquery.min.js" defer></script>
+    <script src="assets/js/plugins/audio.js" defer></script>
+    <script src="assets/js/vendor/bootstrap.min.js" defer></script>
+    <script src="assets/js/vendor/swiper.js" defer></script>
+    <script src="assets/js/vendor/metisMenu.min.js" defer></script>
+    <script src="assets/js/plugins/audio.js" defer></script>
+    <script src="assets/js/plugins/magnific-popup.js" defer></script>
+    <script src="assets/js/plugins/contact-form.js" defer></script>
+    <script src="assets/js/plugins/resize-sensor.min.js" defer></script>
+    <script src="assets/js/plugins/theia-sticky-sidebar.min.js" defer></script>
+
+    <!-- main js file -->
+    <script src="assets/js/main.js" defer></script>
+    <!-- End Footer Area -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const forms = document.querySelectorAll(".subscribeForm");
+
+            forms.forEach(form => {
+                form.addEventListener("submit", function (e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(this);
+                    const responseDiv = this.nextElementSibling; // assumes <div class="responseMsg"> is right after the form
+
+                    fetch("subscribe.php", {
+                        method: "POST",
+                        body: formData
+                    })
+                        .then(res => res.text())
+                        .then(data => {
+                            responseDiv.innerHTML = data;
+
+                            // Auto-hide after 3s
+                            if (data.trim() !== "") {
+                                setTimeout(() => {
+                                    responseDiv.style.opacity = "0";
+                                    setTimeout(() => {
+                                        responseDiv.innerHTML = "";
+                                        responseDiv.style.opacity = "1";
+                                    }, 400);
+                                }, 3000);
+                            }
+                        })
+                        .catch(() => {
+                            responseDiv.innerHTML = "<p class='error-msg'>Something went wrong. Please try again.</p>";
+                            setTimeout(() => { responseDiv.innerHTML = ""; }, 3000);
+                        });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
